@@ -1,0 +1,60 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 7vmin;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+
+  
+  /* Add contrast to text */
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px
+}
+
+img{
+  border-radius: 5px;
+  width: 75vmin;
+  max-height: 50vmin;
+  padding-left: 4vmin;
+  padding-right: 4vmin;
+}
+
+.next{
+  width: 6vmin;
+  background: white;
+  padding: 1vmin;
+}
+
+.random{
+  width: 6vmin;
+  background: white;
+  padding: 1vmin;
+}
+
+.prev{
+  width: 6vmin;
+  background: white;
+  padding: 1vmin;
+}
+
